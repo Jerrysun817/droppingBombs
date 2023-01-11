@@ -15,7 +15,6 @@ print("You will have 200 seconds to find all the safe squares!")
 def play_bombdodgger():
   create_bombfield(bombfield)
   window = tkinter.Tk()
-  root=window
   layout_window(window)
   window.mainloop()
 
